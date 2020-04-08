@@ -10,3 +10,4 @@ parameters:
 
 steps:
 - script: echo ${{ parameters.yesNo }}
+- script: touch index.php
